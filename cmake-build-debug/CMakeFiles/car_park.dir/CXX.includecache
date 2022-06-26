@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/2021/C++/car-park/Cup.h
+string
+-
+coffeeMachine.h
+D:/2021/C++/car-park/coffeeMachine.h
+
+D:/2021/C++/car-park/coffeeCup.cpp
+iostream
+-
+coffeeCup.h
+D:/2021/C++/car-park/coffeeCup.h
+
+D:/2021/C++/car-park/coffeeCup.h
+Cup.h
+D:/2021/C++/car-park/Cup.h
+string
+-
+
+D:/2021/C++/car-park/coffeeMachine.h
+

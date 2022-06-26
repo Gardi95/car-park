@@ -45,7 +45,7 @@ void Cup::fillCup(coffeeMachine *CoffeeMachine) {
 }
 
 void Cup::print() const {
-    std::cout << "cup name is: " << cupName << endl;
-    std::cout << "cup fill is: " << cupFill << endl;
-    std::cout << "cup size is: " << cupSize << endl;
+    std::cout << "cup name is: " << cupName << std::endl;
+    std::cout << "cup fill is: " << cupFill << std::endl;
+    std::cout << "cup size is: " << cupSize << std::endl;
 }

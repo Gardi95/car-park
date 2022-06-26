@@ -9,7 +9,7 @@
 #include "coffeeMachine.h"
 
 enum tCupTypes {
-    coffeeCup,
+    CoffeeCup,
     teaCup,
     universalCup
 };

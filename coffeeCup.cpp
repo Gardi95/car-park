@@ -43,8 +43,6 @@ tStatus coffeeCup::cupState() {
     } else if(time <= 30) {
         return freshDrink;
     }
-
-    return Cup::cupState();
 }
 
 void coffeeCup::print() const {
