@@ -8,6 +8,31 @@
 
 class coffeeMachine {
 
+
+
+
+public:
+    coffeeMachine(float currentCoffee, int coffeePrice, float coffeeCapacity);
+
+    float getCoffeeCapacity() const;
+
+    void setCoffeeCapacity(float coffeeCapacity);
+
+    float getCurrentCoffee() const;
+
+    void setCurrentCoffee(float currentCoffee);
+
+    int getCoffeePrice() const;
+
+    void setCoffeePrice(int coffeePrice);
+
+
+    float requestCoffee(float amount);
+
+protected:
+    float currentCoffee;
+    int coffeePrice;
+    float coffeeCapacity;
 };
 
 
