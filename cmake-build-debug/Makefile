@@ -152,6 +152,30 @@ Cup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/Cup.cpp.s
 .PHONY : Cup.cpp.s
 
+coffeeCup.obj: coffeeCup.cpp.obj
+.PHONY : coffeeCup.obj
+
+# target to build an object file
+coffeeCup.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/coffeeCup.cpp.obj
+.PHONY : coffeeCup.cpp.obj
+
+coffeeCup.i: coffeeCup.cpp.i
+.PHONY : coffeeCup.i
+
+# target to preprocess a source file
+coffeeCup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/coffeeCup.cpp.i
+.PHONY : coffeeCup.cpp.i
+
+coffeeCup.s: coffeeCup.cpp.s
+.PHONY : coffeeCup.s
+
+# target to generate assembly for a file
+coffeeCup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/coffeeCup.cpp.s
+.PHONY : coffeeCup.cpp.s
+
 coffeeMachine.obj: coffeeMachine.cpp.obj
 .PHONY : coffeeMachine.obj
 
@@ -212,6 +236,9 @@ help:
 	@echo ... Cup.obj
 	@echo ... Cup.i
 	@echo ... Cup.s
+	@echo ... coffeeCup.obj
+	@echo ... coffeeCup.i
+	@echo ... coffeeCup.s
 	@echo ... coffeeMachine.obj
 	@echo ... coffeeMachine.i
 	@echo ... coffeeMachine.s

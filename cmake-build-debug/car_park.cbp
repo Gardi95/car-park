@@ -86,6 +86,12 @@
 		<Unit filename="D:/2021/C++/car-park/Cup.h">
 			<Option target="car_park"/>
 		</Unit>
+		<Unit filename="D:/2021/C++/car-park/coffeeCup.cpp">
+			<Option target="car_park"/>
+		</Unit>
+		<Unit filename="D:/2021/C++/car-park/coffeeCup.h">
+			<Option target="car_park"/>
+		</Unit>
 		<Unit filename="D:/2021/C++/car-park/coffeeMachine.cpp">
 			<Option target="car_park"/>
 		</Unit>

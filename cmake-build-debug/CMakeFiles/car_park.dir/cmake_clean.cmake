@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/car_park.dir/Cup.cpp.obj"
+  "CMakeFiles/car_park.dir/coffeeCup.cpp.obj"
   "CMakeFiles/car_park.dir/coffeeMachine.cpp.obj"
   "CMakeFiles/car_park.dir/main.cpp.obj"
   "car_park.exe"
