@@ -6,6 +6,7 @@
 #define CAR_PARK_CUP_H
 
 #include <string>
+#include "coffeeMachine.h"
 
 enum tCupTypes {
     coffeeCup,
@@ -53,6 +54,13 @@ public:
     tCupTypes getType() const;
 
     void setType(tCupTypes type);
+
+    void fillCup(coffeeMachine* CoffeeMachine);
+
+    tStatus virtual cupState() = 0;
+
+    void virtual print() const;
+
 
 };
 

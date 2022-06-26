@@ -6,6 +6,7 @@
 #define CAR_PARK_COFFEEMACHINE_H
 
 
+
 class coffeeMachine {
 
 public:
@@ -25,6 +26,7 @@ public:
 
 
     float requestCoffee(float amount);
+
 
 protected:
     float currentCoffee;
