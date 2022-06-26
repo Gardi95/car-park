@@ -128,6 +128,30 @@ car_park/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/build
 .PHONY : car_park/fast
 
+Cup.obj: Cup.cpp.obj
+.PHONY : Cup.obj
+
+# target to build an object file
+Cup.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/Cup.cpp.obj
+.PHONY : Cup.cpp.obj
+
+Cup.i: Cup.cpp.i
+.PHONY : Cup.i
+
+# target to preprocess a source file
+Cup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/Cup.cpp.i
+.PHONY : Cup.cpp.i
+
+Cup.s: Cup.cpp.s
+.PHONY : Cup.s
+
+# target to generate assembly for a file
+Cup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/Cup.cpp.s
+.PHONY : Cup.cpp.s
+
 coffeeMachine.obj: coffeeMachine.cpp.obj
 .PHONY : coffeeMachine.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... car_park
+	@echo ... Cup.obj
+	@echo ... Cup.i
+	@echo ... Cup.s
 	@echo ... coffeeMachine.obj
 	@echo ... coffeeMachine.i
 	@echo ... coffeeMachine.s

@@ -8,9 +8,6 @@
 
 class coffeeMachine {
 
-
-
-
 public:
     coffeeMachine(float currentCoffee, int coffeePrice, float coffeeCapacity);
 

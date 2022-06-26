@@ -3,4 +3,4 @@ project(car_park)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(car_park main.cpp coffeeMachine.cpp coffeeMachine.h)
+add_executable(car_park main.cpp coffeeMachine.cpp coffeeMachine.h Cup.cpp Cup.h)
