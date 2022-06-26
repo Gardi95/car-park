@@ -224,6 +224,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+workingTable.obj: workingTable.cpp.obj
+.PHONY : workingTable.obj
+
+# target to build an object file
+workingTable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/workingTable.cpp.obj
+.PHONY : workingTable.cpp.obj
+
+workingTable.i: workingTable.cpp.i
+.PHONY : workingTable.i
+
+# target to preprocess a source file
+workingTable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/workingTable.cpp.i
+.PHONY : workingTable.cpp.i
+
+workingTable.s: workingTable.cpp.s
+.PHONY : workingTable.s
+
+# target to generate assembly for a file
+workingTable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\car_park.dir\build.make CMakeFiles/car_park.dir/workingTable.cpp.s
+.PHONY : workingTable.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -245,6 +269,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... workingTable.obj
+	@echo ... workingTable.i
+	@echo ... workingTable.s
 .PHONY : help
 
 

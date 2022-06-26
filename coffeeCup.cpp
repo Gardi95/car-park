@@ -44,7 +44,6 @@ tStatus coffeeCup::cupState() {
         return freshDrink;
     }
 
-
     return Cup::cupState();
 }
 
@@ -53,5 +52,4 @@ void coffeeCup::print() const {
     std::cout << "coffee tempretue is" << coffeeTempreture << std::endl;
     std::cout << "cup color is" << cupColor << std::endl;
     std::cout << "time since last refill" << time << std::endl;
-
 }

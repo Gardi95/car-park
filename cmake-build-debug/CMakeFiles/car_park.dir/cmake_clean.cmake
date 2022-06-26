@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/car_park.dir/coffeeCup.cpp.obj"
   "CMakeFiles/car_park.dir/coffeeMachine.cpp.obj"
   "CMakeFiles/car_park.dir/main.cpp.obj"
+  "CMakeFiles/car_park.dir/workingTable.cpp.obj"
   "car_park.exe"
   "car_park.exe.manifest"
   "car_park.pdb"

@@ -101,6 +101,12 @@
 		<Unit filename="D:/2021/C++/car-park/main.cpp">
 			<Option target="car_park"/>
 		</Unit>
+		<Unit filename="D:/2021/C++/car-park/workingTable.cpp">
+			<Option target="car_park"/>
+		</Unit>
+		<Unit filename="D:/2021/C++/car-park/workingTable.h">
+			<Option target="car_park"/>
+		</Unit>
 		<Unit filename="D:/2021/C++/car-park/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
